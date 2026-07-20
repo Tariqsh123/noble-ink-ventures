@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noble Ink Ventures — Four Ledgers. One Portfolio.</title>
+
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Google Fonts: Playfair Display + Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container nav-inner">
+            <a href="#" class="nav-logo" aria-label="Noble Ink Ventures Home">
+                <img src="images/logo.png" style="height: 60px;" alt="">
+            </a>
+
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="#" role="menuitem" class="active">Home</a></li>
+                <li role="none"><a href="#" role="menuitem">Plans</a></li>
+                <li role="none"><a href="#" role="menuitem">Career</a></li>
+                <li role="none"><a href="#" role="menuitem">Legal</a></li>
+                <li role="none"><a href="#" role="menuitem" class="nav-cta-btn">Invest</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-arrow-trend-up"></i> Live Portfolio · 4 Active Verticals
+                </div>
+
+                <h1>
+                    Four ledgers.<br />
+                    <span class="gold">One compounding</span><br />
+                    venture portfolio.
+                </h1>
+
+                <p>
+                    We build, rank, and operate digital-first properties across publishing, software,
+                    and marketing — then open the ledger to investors who want a stake in what already
+                    works, not a pitch about what might.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-gold"><i class="fas fa-chart-simple"></i> View Investment Plans</a>
+                    <a href="#traction" class="btn-outline"><i class="fas fa-play-circle"></i> See Live Performance</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Active Verticals</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Yrs Founder Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Markets</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Organic-Led Growth</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="img-stack">
+                    <div class="img-wrap">
+                        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=1000&fit=crop&crop=center&auto=format" alt="Ledger and investment portfolio documents" />
+                        <div class="overlay-ledger"></div>
+                        <div class="overlay-glow"></div>
+                    </div>
+                    <div class="secondary-photo">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=300&fit=crop&crop=center&auto=format" alt="Analytics dashboard showing organic growth" />
+                    </div>
+                </div>
+                <div class="hero-floating-badge">
+                    <div class="badge-icon"><i class="fas fa-rocket"></i></div>
+                    <div class="badge-text">
+                        <strong>4 markets</strong><br />
+                        Australia · UK · Gulf · USA
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== MARKET STRIP ========== -->
+    <section class="market-strip" aria-label="Markets served">
+        <div class="market-strip-grid">
+            <a href="#verticals" class="market-tile">
+                <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=500&h=350&fit=crop&crop=center&auto=format" alt="Sydney, Australia skyline" />
+                <div class="market-label">
+                    <span class="market-code">AU</span>
+                    <span class="market-name">Australia</span>
+                </div>
+            </a>
+            <a href="#verticals" class="market-tile">
+                <img src="https://images.unsplash.com/photo-1512632578888-169bbbc64f33?w=500&h=350&fit=crop&crop=center&auto=format" alt="Dubai, United Arab Emirates skyline" />
+                <div class="market-label">
+                    <span class="market-code">GCC</span>
+                    <span class="market-name">Gulf</span>
+                </div>
+            </a>
+            <a href="#verticals" class="market-tile">
+                <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=500&h=350&fit=crop&crop=center&auto=format" alt="London, United Kingdom skyline" />
+                <div class="market-label">
+                    <span class="market-code">UK</span>
+                    <span class="market-name">United Kingdom</span>
+                </div>
+            </a>
+            <a href="#verticals" class="market-tile">
+                <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500&h=350&fit=crop&crop=center&auto=format" alt="New York, United States skyline" />
+                <div class="market-label">
+                    <span class="market-code">US</span>
+                    <span class="market-name">United States</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========== GUARANTEE & SURETY ========== -->
+    <section class="guarantee" id="guarantee">
+        <div class="ledger-lines"></div>
+        <div class="container guarantee-grid">
+
+            <div class="guarantee-content">
+                <div class="section-eyebrow">
+                    <span class="line-left"></span> Guarantee &amp; Surety
+                </div>
+                <h2 class="section-heading">
+                    This Is a Business — <br /><span class="gold">Not an App</span> That Quietly Shuts Down.
+                </h2>
+                <p class="section-intro">
+                    Most investment platforms are exactly that — a platform. You transfer capital, watch a number move on a screen, and after a few months the app disappears along with your money. <span class="highlight-text">Noble Ink Ventures is built differently</span>, as an actual operating business with real assets, real clients, and real legal accountability behind every rupee invested.
+                </p>
+                <p class="section-intro" style="margin-top: 2px;">
+                    Every investor's capital is backed by two concrete instruments, not just a dashboard login:
+                </p>
+            </div>
+
+            <div class="guarantee-cards">
+
+                <div class="guarantee-card">
+                    <div class="card-icon"><i class="fas fa-file-invoice"></i></div>
+                    <div class="card-body">
+                        <h4>Security Cheque</h4>
+                        <p>Issued directly against your invested amount, held as tangible surety and governed by clear, written encashment conditions.</p>
+                        <span class="tag"><i class="fas fa-shield-alt" style="margin-right: 6px;"></i> Tangible guarantee</span>
+                    </div>
+                </div>
+
+                <div class="guarantee-card">
+                    <div class="card-icon"><i class="fas fa-file-signature"></i></div>
+                    <div class="card-body">
+                        <h4>Signed Legal Agreement</h4>
+                        <p>A formal contract between you and the Company that defines your investment terms, your rights, and your exit — not a set of app terms you scrolled past.</p>
+                        <span class="tag"><i class="fas fa-gavel" style="margin-right: 6px;"></i> Legally binding</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOUNDER ========== -->
+    <section class="founder" id="about">
+        <div class="container founder-grid">
+
+            <div class="founder-photo-wrap">
+                <div class="founder-photo">
+                    <img src="images/founder.jpeg" alt="Sanwal Ali, Founder of Noble Ink Ventures" />
+                    <div class="founder-card-overlay">
+                        <div class="card-name">Sanwal Ali</div>
+                        <div class="card-title">Founder &amp; Operator, Noble Ink Ventures</div>
+                    </div>
+                </div>
+
+                <ul class="founder-facts">
+                    <li><i class="fas fa-graduation-cap"></i> Iqra University</li>
+                    <li><i class="fas fa-briefcase"></i> 5+ Yrs Experience</li>
+                    <li><i class="fas fa-location-dot"></i> Karachi, Pakistan</li>
+                    <li><i class="fas fa-bullseye"></i> SEO-Led Building</li>
+                    <li><i class="fas fa-globe"></i> 4 Markets Served</li>
+                    <li><i class="fas fa-trophy"></i> 100% Organic Growth</li>
+                </ul>
+            </div>
+
+            <div class="founder-text">
+                <div class="section-eyebrow"><i class="fas fa-quote-left"></i> The Founder</div>
+                <h2 class="section-heading">Built independently.<br /><span class="gold">Built to scale.</span></h2>
+                <p>
+                    Sanwal Ali founded Noble Ink Ventures after five years of hands-on work in digital
+                    marketing and search engine optimisation — running lead-generation and publishing
+                    properties for clients across Pakistan, the Gulf, the United Kingdom, Australia,
+                    and the United States. A graduate of Iqra University, he built the group's first
+                    properties independently before formalising them under one investable structure.
+                </p>
+                <p>
+                    The model is simple to state and hard to copy: identify an underserved niche,
+                    build a focused website around it, rank it organically, and either operate it
+                    directly or share revenue with a service partner. Every vertical below runs on
+                    the same playbook.
+                </p>
+                <div class="founder-signature">Sanwal Ali</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOUR VERTICALS ========== -->
+    <section class="verticals" id="verticals">
+        <div class="container">
+
+            <div class="verticals-header">
+                <div class="section-eyebrow"><i class="fas fa-layer-group"></i> The Four Verticals</div>
+                <h2 class="section-heading">Where the <span class="gold">ledger</span> is written.</h2>
+                <p class="section-intro">
+                    Every entry below is a working business unit, not a slide. Together they diversify
+                    Noble Ink Ventures across three revenue models: service fees, software subscriptions,
+                    and lead-generation partnerships.
+                </p>
+            </div>
+
+            <div class="verticals-grid">
+
+                <div class="vertical-card">
+                    <div class="card-photo">
+                        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=700&h=400&fit=crop&crop=center&auto=format" alt="Stack of published books" />
+                        <div class="card-icon-badge"><i class="fas fa-book-open"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-number"><i class="fas fa-hashtag"></i> Entry 01</div>
+                        <h3>International Book Publishing</h3>
+                        <p>
+                            Full-service self-publishing for independent authors — editing, cover design,
+                            layout, and distribution across major global retail and print-on-demand platforms.
+                            Country-specific properties target Australia, the Gulf, and the UK.
+                        </p>
+                        <div class="tags">
+                            <span>Service Revenue</span>
+                            <span>AU</span>
+                            <span>GCC</span>
+                            <span>UK</span>
+                            <span>Domain Strategy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vertical-card">
+                    <div class="card-photo">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=700&h=400&fit=crop&crop=center&auto=format" alt="Software product interface on a laptop screen" />
+                        <div class="card-icon-badge"><i class="fas fa-cubes"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-number"><i class="fas fa-hashtag"></i> Entry 02</div>
+                        <h3>SaaS Tools &amp; Software</h3>
+                        <p>
+                            Lightweight software products built for the same audiences the publishing and
+                            marketing arms already reach — starting with internal SEO and content tooling,
+                            extending to subscription products for creators and small agencies.
+                        </p>
+                        <div class="tags">
+                            <span>Subscription Revenue</span>
+                            <span>Early Stage</span>
+                            <span>Cross-Sell</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vertical-card">
+                    <div class="card-photo">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&h=400&fit=crop&crop=center&auto=format" alt="Digital marketing analytics dashboard" />
+                        <div class="card-icon-badge"><i class="fas fa-bullhorn"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-number"><i class="fas fa-hashtag"></i> Entry 03</div>
+                        <h3>Digital Marketing Services</h3>
+                        <p>
+                            Organic SEO, technical audits, paid social management, and content production —
+                            delivered directly to clients and used internally to rank every property the
+                            group owns.
+                        </p>
+                        <div class="tags">
+                            <span>Retainer Revenue</span>
+                            <span>GCC</span>
+                            <span>Pakistan</span>
+                            <span>SEO-First</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vertical-card">
+                    <div class="card-photo">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=700&h=400&fit=crop&crop=center&auto=format" alt="Developer writing code across two monitors" />
+                        <div class="card-icon-badge"><i class="fas fa-code"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-number"><i class="fas fa-hashtag"></i> Entry 04</div>
+                        <h3>Remote IT &amp; Technical Services</h3>
+                        <p>
+                            Website development, technical support, and infrastructure work delivered
+                            remotely to international clients — the operational backbone that builds and
+                            maintains every property in the portfolio.
+                        </p>
+                        <div class="tags">
+                            <span>Project &amp; Retainer</span>
+                            <span>Remote-First</span>
+                            <span>Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS (PROCESS BANNER) ========== -->
+    <section class="process-banner">
+        <div class="container">
+            <div class="process-header">
+                <div class="section-eyebrow"><i class="fas fa-diagram-project"></i> The Playbook</div>
+                <h2 class="section-heading" style="font-size: clamp(2rem, 3.6vw, 2.8rem);">How a <span class="gold">niche</span> becomes a <span class="gold">ledger entry</span>.</h2>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <h5>Identify</h5>
+                    <p>Find an underserved niche with real, measurable search demand.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <h5>Build</h5>
+                    <p>Launch a focused property engineered around that niche.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <h5>Rank</h5>
+                    <p>Grow it organically to page-one visibility in its market.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <h5>Operate or Share</h5>
+                    <p>Run it directly, or revenue-share it with a service partner.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TRACTION (LIGHT) ========== -->
+    <section class="traction section-light" id="traction">
+        <div class="ledger-lines light"></div>
+        <div class="container">
+
+            <div class="traction-header">
+                <div class="section-eyebrow"><i class="fas fa-chart-line"></i> Proof of Model</div>
+                <h2 class="section-heading">Live properties, <span class="gold">not projections</span>.</h2>
+                <p class="section-intro">
+                    The rank-and-rent and organic lead-generation strategy is already running across
+                    multiple live domains — each one a working test of the same acquisition model
+                    before capital is deployed into scaling it further.
+                </p>
+            </div>
+
+            <div class="traction-grid">
+
+                <div class="traction-item">
+                    <div class="traction-photo">
+                        <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=500&h=320&fit=crop&crop=center&auto=format" alt="Sydney Opera House, Australia" />
+                        <div class="traction-icon"><i class="fas fa-globe-asia"></i></div>
+                    </div>
+                    <div class="traction-body">
+                        <h4>Publishing — Australia</h4>
+                        <div class="traction-sub">Live Domain</div>
+                        <p>National landing pages and a full-service pricing stack, built to rank for self-publishing search terms across major Australian cities.</p>
+                    </div>
+                </div>
+
+                <div class="traction-item">
+                    <div class="traction-photo">
+                        <img src="https://images.unsplash.com/photo-1512632578888-169bbbc64f33?w=500&h=320&fit=crop&crop=center&auto=format" alt="Dubai skyline, United Arab Emirates" />
+                        <div class="traction-icon"><i class="fas fa-flag"></i></div>
+                    </div>
+                    <div class="traction-body">
+                        <h4>Publishing — Gulf</h4>
+                        <div class="traction-sub">Live Domain</div>
+                        <p>A regional property targeting Gulf-based authors, with search performance data actively guiding country-by-country SEO decisions.</p>
+                    </div>
+                </div>
+
+                <div class="traction-item">
+                    <div class="traction-photo">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=320&fit=crop&crop=center&auto=format" alt="World map with pinned global markets" />
+                        <div class="traction-icon"><i class="fas fa-earth-americas"></i></div>
+                    </div>
+                    <div class="traction-body">
+                        <h4>Marketing — Global</h4>
+                        <div class="traction-sub">Live Domain</div>
+                        <p>A niche commissioning service structured around country-specific landing pages for the US, UK, Australia, and Canada.</p>
+                    </div>
+                </div>
+
+                <div class="traction-item">
+                    <div class="traction-photo">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&h=320&fit=crop&crop=center&auto=format" alt="Home services contractor at work" />
+                        <div class="traction-icon"><i class="fas fa-handshake"></i></div>
+                    </div>
+                    <div class="traction-body">
+                        <h4>Lead-Gen — UAE</h4>
+                        <div class="traction-sub">Live Domain</div>
+                        <p>A revenue-share lead-generation site in a home-services niche, built to rank first before a local contractor partnership is signed.</p>
+                    </div>
+                </div>
+
+                <div class="traction-item">
+                    <div class="traction-photo">
+                        <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500&h=320&fit=crop&crop=center&auto=format" alt="New York City street, United States" />
+                        <div class="traction-icon"><i class="fas fa-flag-usa"></i></div>
+                    </div>
+                    <div class="traction-body">
+                        <h4>Lead-Gen — USA</h4>
+                        <div class="traction-sub">Live Domain</div>
+                        <p>A local-service lead-generation site with an active technical SEO improvement roadmap already underway.</p>
+                    </div>
+                </div>
+
+                <div class="traction-item">
+                    <div class="traction-photo">
+                        <img src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=500&h=320&fit=crop&crop=center&auto=format" alt="Global network of connected content hubs" />
+                        <div class="traction-icon"><i class="fas fa-network-wired"></i></div>
+                    </div>
+                    <div class="traction-body">
+                        <h4>Marketing — Global</h4>
+                        <div class="traction-sub">Live Domain</div>
+                        <p>A six-country content hub structuring reach across the US, Canada, UK, Germany, Italy, and Australia under one brand.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS (LIGHT) ========== -->
+    <section class="testimonials section-light" id="testimonials">
+        <div class="container">
+
+            <div class="testimonials-header">
+                <div class="section-eyebrow"><i class="fas fa-comment-dots"></i> Testimonials</div>
+                <h2 class="section-heading">What our <span class="gold">partners</span> say.</h2>
+            </div>
+
+            <div class="testimonials-grid">
+
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <blockquote>
+                        "Noble Ink Ventures delivered exactly what they promised — a ranking, revenue-generating asset. Their organic-first approach is refreshingly transparent."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100&h=100&fit=crop&crop=faces&auto=format" alt="James Mitchell" />
+                        </div>
+                        <div>
+                            <div class="author-name">James Mitchell</div>
+                            <div class="author-role">Founder, Mitchell Publishing</div>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <blockquote>
+                        "We partnered with Noble Ink for our lead-gen site in the UAE. Within 90 days, we were ranking page one. The revenue-share model is a win-win."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop&crop=faces&auto=format" alt="Aisha Al Marri" />
+                        </div>
+                        <div>
+                            <div class="author-name">Aisha Al Marri</div>
+                            <div class="author-role">CEO, Gulf Home Services</div>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <blockquote>
+                        "Their technical SEO and content production is world-class. We've seen a 200% increase in organic traffic across our portfolio in just six months."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=faces&auto=format" alt="David Chen" />
+                        </div>
+                        <div>
+                            <div class="author-name">David Chen</div>
+                            <div class="author-role">Director, Chen Digital Group</div>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== PARTNERS ========== -->
+    <section class="partners">
+        <div class="container">
+            <div class="partner-label"><i class="fas fa-handshake" style="margin-right: 8px;"></i> Trusted by industry leaders</div>
+            <div class="partners-grid">
+                <span class="partner-logo">Mitchell Pub.</span>
+                <span class="partner-logo">Gulf Home Services</span>
+                <span class="partner-logo"> Chen Digital</span>
+                <span class="partner-logo">Al Marri Group</span>
+                <span class="partner-logo">TechStack Ltd</span>
+                <span class="partner-logo"> Ink &amp; Press</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FBR TAXPAYER CERTIFICATE ========== -->
+    <section class="fbr-certificate">
+        <div class="ledger-lines"></div>
+        <div class="container fbr-container">
+
+            <div class="fbr-grid">
+
+                <div class="fbr-text">
+                    <div class="section-eyebrow">
+                        <span class="line-left"></span> Tax Compliance
+                    </div>
+                    <h2 class="section-heading">
+                        Registered with <span class="gold">FBR</span>
+                    </h2>
+                    <p class="section-intro">
+                    <strong>Noble Ink Ventures</strong> — operated by <strong>Sanwal Chandio</strong> — 
+                    is a registered taxpayer with the Federal Board of Revenue (FBR), Pakistan. 
+                    Our active taxpayer status ensures complete transparency, legal accountability, 
+                    and regulatory compliance for every investor who enters the ledger.
+                </p>
+                    <div class="fbr-badges">
+                        <span><i class="fas fa-check-circle"></i> Active Taxpayer</span>
+                        <span><i class="fas fa-check-circle"></i> NTN Registered</span>
+                        <span><i class="fas fa-check-circle"></i> Sales Tax Registered</span>
+                    </div>
+                </div>
+
+                <div class="fbr-image">
+                    <div class="fbr-image-wrap">
+                        <img src="images/fbr-certificate.jpeg" alt="FBR Taxpayer Certificate — Noble Ink Ventures" />
+                        <div class="fbr-image-glow"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== IMAGE BANNER ========== -->
+    <section class="image-banner">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=800&fit=crop&crop=center&auto=format" alt="Financial district skyline at dusk" />
+        <div class="image-banner-content">
+            <div class="section-eyebrow"><i class="fas fa-book"></i> The Ledger Philosophy</div>
+            <h3>Four entries, one balance sheet — <span class="gold">every line auditable, every asset live.</span></h3>
+        </div>
+    </section>
+
+    <!-- ========== CTA CLOSING ========== -->
+    <section class="cta-closing" id="contact">
+        <div class="container">
+            <div class="gold-divider"></div>
+            <h2 class="section-heading">
+                Read the terms and see where<br />
+                <span class="gold">your capital sits in the ledger.</span>
+            </h2>
+            <p class="section-intro">Every vertical is a working business unit. Every dollar is deployed into what already works — not a pitch about what might.</p>
+            <div class="cta-btn-wrap">
+                <a href="#" class="btn-gold"><i class="fas fa-file-invoice"></i> View Investment Plans →</a>
+                <a href="#" class="btn-outline"><i class="fas fa-calendar-check"></i> Schedule a Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" style="height: 100px;" alt="">
+                    </div>
+                    <p>
+                        Four ledgers. One compounding venture portfolio. We build, rank, and operate
+                        digital-first properties across publishing, software, and marketing — then
+                        open the ledger to investors.
+                    </p>
+
+                    <div class="footer-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Plans</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Career</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Legal</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Invest</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="mailto:info@nobleinkventures.com">
+                                <i class="fas fa-envelope"></i> info@nobleinkventures.com
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="tel:+923241237391">
+                                <i class="fas fa-phone"></i> +92 324 1237391
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-location-dot"></i> Karachi, Pakistan
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-clock"></i> Mon - Fri : 9:00 AM - 6:00 PM
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copy">
+                    &copy; 2026 <span class="gold-text">Noble Ink Ventures</span> All Rights Reserved
+                </div>
+
+                <div class="footer-legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // ---- Mobile nav toggle ----
+        const toggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        toggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('open');
+            toggle.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                toggle.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // ---- Navbar scroll effect ----
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 40) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // ---- Active nav link on scroll ----
+        const sections = document.querySelectorAll('section[id]');
+        const navLinksAll = navLinks.querySelectorAll('a:not(.nav-cta-btn)');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 140;
+                if (window.pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinksAll.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+                if (current === '' && link.getAttribute('href') === '#home') {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // ---- Smooth anchor scroll ----
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // ---- Dynamic year ----
+        const yearSpan = document.querySelector('.footer-copy');
+        if (yearSpan) {
+            yearSpan.innerHTML = yearSpan.innerHTML.replace('2026', new Date().getFullYear());
+        }
+
+        // ---- Newsletter subscribe ----
+        const newsletterBtn = document.querySelector('.footer-newsletter .newsletter-form button');
+        const newsletterInput = document.querySelector('.footer-newsletter .newsletter-form input');
+        if (newsletterBtn && newsletterInput) {
+            newsletterBtn.addEventListener('click', () => {
+                const email = newsletterInput.value.trim();
+                if (email && email.includes('@')) {
+                    alert('Thank you for subscribing! You will receive our quarterly updates.');
+                    newsletterInput.value = '';
+                } else {
+                    alert('Please enter a valid email address.');
+                }
+            });
+        }
+
+        // ---- Scroll reveal for cards ----
+        const revealTargets = document.querySelectorAll('.guarantee-card, .vertical-card, .traction-item, .testimonial-card, .market-tile, .process-step, .fbr-image-wrap');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        revealTargets.forEach((card, i) => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(16px)';
+            card.style.transition = `opacity 0.5s ease ${(i % 6) * 0.08}s, transform 0.5s ease ${(i % 6) * 0.08}s`;
+            observer.observe(card);
+        });
+    </script>
+
+</body>
+</html>
