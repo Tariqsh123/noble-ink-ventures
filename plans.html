@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noble Ink Ventures — Four Ledgers. One Portfolio.</title>
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-logo" aria-label="Noble Ink Ventures Home">
+                <img src="images/logo.png" alt="Noble Ink Ventures Logo" />
+            </a>
+
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="index.html" role="menuitem" class="active">Home</a></li>
+                <li role="none"><a href="plans.html" role="menuitem">Plans</a></li>
+                <li role="none"><a href="#" role="menuitem">Career</a></li>
+                <li role="none"><a href="legal.html" role="menuitem">Legal</a></li>
+                <li role="none"><a href="#" role="menuitem" class="nav-cta">Invest</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+           INVESTMENT PLANS (Dark) — Premium Gold Cards
+        ============================================================ -->
+<section class="investment-plans" id="plans">
+    <div class="container">
+
+        <div class="plans-header">
+            <div class="section-eyebrow">
+                <span class="line"></span> Investment Plans
+            </div>
+            <h2 class="section-heading">
+                Choose your <span class="gold">plan</span>,<br />
+                pick your <span class="gold">duration</span>.
+            </h2>
+            <p class="section-intro">
+                Select a plan size that fits your goals, then choose a duration that aligns with your investment horizon.
+            </p>
+        </div>
+
+        <!-- Core Plans — 4 Cards Row -->
+        <div class="plans-grid">
+            <!-- Basic Plan -->
+            <div class="plan-card">
+                <div class="plan-name">Basic</div>
+                <div class="plan-amount">PKR 15,000</div>
+                <div class="plan-meta">
+                    <span><i class="far fa-calendar-alt"></i> 8 Months</span>
+                    <span><i class="fas fa-percent"></i> 4–6% Monthly</span>
+                </div>
+                <div class="plan-features">
+                    <span>Secure</span>
+                    <span>Liquid</span>
+                </div>
+                <a href="#" class="plan-btn">Select Plan</a>
+            </div>
+
+            <!-- Starter Plan -->
+            <div class="plan-card">
+                <div class="plan-name">Starter</div>
+                <div class="plan-amount">PKR 30,000</div>
+                <div class="plan-meta">
+                    <span><i class="far fa-calendar-alt"></i> 8 Months</span>
+                    <span><i class="fas fa-percent"></i> 4–6% Monthly</span>
+                </div>
+                <div class="plan-features">
+                    <span>Secure</span>
+                    <span>Liquid</span>
+                    <span>Compound</span>
+                </div>
+                <a href="#" class="plan-btn">Select Plan</a>
+            </div>
+
+            <!-- Growth Plan — Popular -->
+            <div class="plan-card plan-popular">
+                <!-- <span class="popular-badge">Most Popular</span> -->
+                <div class="plan-name">Growth</div>
+                <div class="plan-amount">PKR 50,000</div>
+                <div class="plan-meta">
+                    <span><i class="far fa-calendar-alt"></i> 8 Months</span>
+                    <span><i class="fas fa-percent"></i> 4–6% Monthly</span>
+                </div>
+                <div class="plan-features">
+                    <span>Secure</span>
+                    <span>Liquid</span>
+                    <span>Compound</span>
+                    <span>Priority</span>
+                </div>
+                <a href="#" class="plan-btn">Select Plan</a>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="plan-card">
+                <div class="plan-name">Premium</div>
+                <div class="plan-amount">PKR 70,000</div>
+                <div class="plan-meta">
+                    <span><i class="far fa-calendar-alt"></i> 8 Months</span>
+                    <span><i class="fas fa-percent"></i> 4–6% Monthly</span>
+                </div>
+                <div class="plan-features">
+                    <span>Secure</span>
+                    <span>Liquid</span>
+                    <span>Compound</span>
+                    <span>Priority</span>
+                    <span>VIP</span>
+                </div>
+                <a href="#" class="plan-btn">Select Plan</a>
+            </div>
+        </div>
+
+        <!-- Extended Duration Options -->
+        <div class="duration-section">
+            <h4>Extended Duration Options <span style="color: var(--gold);">(applies across all plans)</span></h4>
+            <div class="duration-grid">
+
+                <div class="duration-item">
+                    <div class="dur-icon"><i class="fas fa-clock"></i></div>
+                    <div class="dur-label">Duration</div>
+                    <div class="dur-value">6 Months</div>
+                    <div class="dur-return">Monthly Return <strong>3–5%</strong></div>
+                </div>
+
+                <!-- Sweet Spot / Recommended -->
+                <div class="duration-item duration-popular">
+                    <span class="popular-badge">Recommended</span>
+                    <div class="dur-icon"><i class="fas fa-calendar-plus"></i></div>
+                    <div class="dur-label">Duration</div>
+                    <div class="dur-value">12 Months</div>
+                    <div class="dur-return">Monthly Return <strong>5–7%</strong></div>
+                </div>
+
+                <div class="duration-item">
+                    <div class="dur-icon"><i class="fas fa-infinity"></i></div>
+                    <div class="dur-label">Duration</div>
+                    <div class="dur-value">18 Months</div>
+                    <div class="dur-return">Monthly Return <strong>6–8%</strong></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- ========== CTA (Light) ========== -->
+    <section class="cta-closing" id="contact">
+        <div class="container">
+            <div class="gold-divider"></div>
+            <h2 class="section-heading">
+                Read the terms and see where<br />
+                <span class="gold">your capital sits in the ledger.</span>
+            </h2>
+            <p class="section-intro">Every asset is a working business unit. Every dollar is deployed into what already works — not a pitch about what might.</p>
+           <div class="cta-btn-wrap">
+                <a href="plans.html" class="btn-primary"><i class="fas fa-file-invoice"></i> View Investment Plans →</a>
+                <a href="legal.html" class="btn-light"><i class="fas fa-calendar-check"></i> Schedule a Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER (Dark) - Enhanced ========== -->
+    <footer>
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Noble Ink Ventures" />
+                    </div>
+                    <p>
+                        Four ledgers. One compounding venture portfolio. We build, rank, and operate
+                        digital-first properties across publishing, software, and marketing — then
+                        open the ledger to investors.
+                    </p>
+
+                    <div class="footer-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="plans.html"><i class="fas fa-chevron-right"></i> Plans</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Career</a></li>
+                        <li><a href="legal.html"><i class="fas fa-chevron-right"></i> Legal</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Invest</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="mailto:info@nobleinkventures.com">
+                                <i class="fas fa-envelope"></i> info@nobleinkventures.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+923241237391">
+                                <i class="fas fa-phone"></i> +92 324 1237391
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-location-dot"></i> Karachi, Pakistan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-clock"></i> Mon–Fri : 9AM – 6PM
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col footer-newsletter">
+                    <h4>Subscribe</h4>
+                    <p>Get quarterly reports and performance updates.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email" />
+                        <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copy">
+                    &copy; 2026 <span class="gold-text">Noble Ink Ventures</span> All Rights Reserved
+                </div>
+
+                <div class="footer-legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // ---- Mobile nav toggle ----
+        const toggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        toggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('open');
+            toggle.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                toggle.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // ---- Navbar scroll effect ----
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 40) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // ---- Active nav link on scroll ----
+        const sections = document.querySelectorAll('section[id]');
+        const navLinksAll = navLinks.querySelectorAll('a:not(.nav-cta)');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 140;
+                if (window.pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinksAll.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+                if (current === '' && link.getAttribute('href') === '#home') {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // ---- Smooth anchor scroll ----
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // ---- Dynamic year ----
+        const yearSpan = document.querySelector('.footer-copy');
+        if (yearSpan) {
+            yearSpan.innerHTML = yearSpan.innerHTML.replace('2026', new Date().getFullYear());
+        }
+
+        // ---- Scroll reveal ----
+        const revealTargets = document.querySelectorAll(
+            '.guarantee-item, .asset-block, .traction-item, .testimonial-card, .market-tile, .process-step, .fbr-image-wrap'
+        );
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        revealTargets.forEach((card, i) => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition =
+                `opacity 0.6s ease ${(i % 8) * 0.06}s, transform 0.6s ease ${(i % 8) * 0.06}s`;
+            observer.observe(card);
+        });
+    </script>
+
+</body>
+</html>
